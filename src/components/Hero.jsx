@@ -16,6 +16,8 @@ const Hero = () => {
       w={"full"}
       backgroundImage={{ base: "url(/bg2.png)", md: "url(/bg.png)" }}
       h={{ base: "620px", md: "499px" }}
+      backgroundRepeat={"no-repeat"}
+      backgroundSize={{ base: "cover", md: "" }}
     >
       <Container maxW={"container.lg"}>
         <Box w={{ base: "full", md: "55%" }}>
