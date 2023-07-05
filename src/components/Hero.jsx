@@ -15,7 +15,7 @@ const Hero = () => {
       pt={{ base: 10, md: 20 }}
       w={"full"}
       backgroundImage={{ base: "url(/bg2.png)", md: "url(/bg.png)" }}
-      minH={"499px"}
+      h={{ base: "620px", md: "499px" }}
     >
       <Container maxW={"container.lg"}>
         <Box w={{ base: "full", md: "55%" }}>
@@ -65,7 +65,7 @@ const Hero = () => {
           >
             SOHASIGA KIRISH
           </Text>
-          <Flex pt={{ base: "270px", md: "0" }} align={"center"} gap={3}>
+          <Flex pt={{ base: "390px", md: "0" }} align={"center"} gap={3}>
             <Image src="/zap.png" />
             <Box>
               <Text
