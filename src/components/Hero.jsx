@@ -14,7 +14,7 @@ const Hero = () => {
     <Box
       pt={{ base: 10, md: 20 }}
       w={"full"}
-      backgroundImage={"url(/bg.png)"}
+      backgroundImage={{ base: "url(/bg2.png)", md: "url(/bg.png)" }}
       minH={"499px"}
     >
       <Container maxW={"container.lg"}>
