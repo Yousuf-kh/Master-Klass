@@ -15,12 +15,21 @@ const Hero = () => {
       <Container maxW={"container.lg"}>
         <Box w={{ base: "full", md: "55%" }}>
           <Flex align={"center"} justify={"space-between"}>
-            <Text px={2} bg={"#fff"} fontSize={"24px"} fontWeight={"300"}>
+            <Text
+              px={2}
+              bg={"#fff"}
+              fontSize={{ base: "20px", md: "24px" }}
+              fontWeight={"300"}
+            >
               20-21-22-iyun
             </Text>
             <Flex align={"center"} gap={5}>
               <Flex align={"center"} gap={1}>
-                <Text color={"#5B6375"} fontSize={"24px"} fontWeight={"300"}>
+                <Text
+                  color={"#5B6375"}
+                  fontSize={{ base: "20px", md: "24px" }}
+                  fontWeight={"300"}
+                >
                   20:00
                 </Text>
                 <Image src="/clock.png" />
@@ -36,7 +45,7 @@ const Hero = () => {
             </Flex>
           </Flex>
           <Heading
-            fontSize={{ base: "40px", md: "80px" }}
+            fontSize={{ base: "30px", md: "80px" }}
             fontWeight={"700"}
             letterSpacing={"0.02em"}
             color={"#FFFFFF"}
@@ -45,7 +54,7 @@ const Hero = () => {
           </Heading>
           <Text
             color={"#FFFFFF"}
-            fontSize={{ base: "30px", md: "40px" }}
+            fontSize={{ base: "25px", md: "40px" }}
             fontWeight={"300"}
             letterSpacing={{ base: "7px", md: "10px" }}
           >
