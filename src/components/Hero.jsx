@@ -11,7 +11,12 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <Box pt={20} w={"full"} backgroundImage={"url(/bg.png)"} minH={"499px"}>
+    <Box
+      pt={{ base: 10, md: 20 }}
+      w={"full"}
+      backgroundImage={"url(/bg.png)"}
+      minH={"499px"}
+    >
       <Container maxW={"container.lg"}>
         <Box w={{ base: "full", md: "55%" }}>
           <Flex align={"center"} justify={"space-between"}>
