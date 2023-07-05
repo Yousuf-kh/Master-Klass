@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Master from "./components/Master";
 import Navbar from "./components/Navbar";
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Master />
       <Portfolio />
+      <Footer />
     </>
   );
 }

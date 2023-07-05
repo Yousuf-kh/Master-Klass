@@ -60,7 +60,7 @@ const Hero = () => {
           >
             SOHASIGA KIRISH
           </Text>
-          <Flex align={"center"} gap={3}>
+          <Flex pt={{ base: "230px", md: "0" }} align={"center"} gap={3}>
             <Image src="/zap.png" />
             <Box>
               <Text

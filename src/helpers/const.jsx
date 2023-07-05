@@ -43,17 +43,17 @@ export const responsive = {
 };
 
 export const carusel = [
-  "/c-1.png",
-  "/c-2.png",
-  "/c-3.png",
-  "/c-4.png",
-  "/c-5.png",
+  "/c-1.jpg",
+  "/c-2.jpg",
+  "/c-3.jpg",
+  "/c-4.jpg",
+  "/c-5.jpg",
 ];
 
 export const carusel2 = [
-  "/c-6.png",
-  "/c-7.png",
-  "/c-8.png",
-  "/c-9.png",
-  "/c-10.png",
+  "/c-6.jpg",
+  "/c-7.jpg",
+  "/c-8.jpg",
+  "/c-9.jpg",
+  "/c-10.jpg",
 ];

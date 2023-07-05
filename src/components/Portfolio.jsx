@@ -29,12 +29,24 @@ const Portfolio = () => {
         </Heading>
       </Box>
       {/*  */}
-      <Carousel responsive={responsive}>
+      <Carousel
+        infinite={true}
+        responsive={responsive}
+        autoPlaySpeed={3500}
+        autoPlay={true}
+        arrows={false}
+      >
         {carusel.map((c, i) => (
           <Image key={i} src={c} />
         ))}
       </Carousel>
-      <Carousel responsive={responsive}>
+      <Carousel
+        infinite={true}
+        autoPlaySpeed={4000}
+        autoPlay={true}
+        responsive={responsive}
+        arrows={false}
+      >
         {carusel2.map((c, i) => (
           <Image key={i} src={c} />
         ))}
